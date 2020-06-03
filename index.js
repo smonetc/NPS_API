@@ -24,19 +24,6 @@ function formatQueryParams(params) {
         </li>`
       )};
 
-    //   still working on making the address appear
-
-    //   for (let i = 0; i < responseJson.data[i].addresses[i].length; i++){
-    
-    //     $('.address').append(
-    //       `<h5>${responseJson.data[i].addresses[i].type}:</h5>
-    //       <p class="addresses">${responseJson.data[i].addresses[i].line1}</p>
-    //       <p class="addresses">${responseJson.data[i].addresses[i].line2}</p>
-    //       <p class="addresses">${responseJson.data[i].addresses[i].line3}</p>
-    //       <p class="addresses">${responseJson.data[i].addresses[i].city}, ${parkData[i].addresses[x].stateCode}, ${parkData[i].addresses[x].postalCode}</p>
-    //       `
-    //     )};
-
 
     //display the results section  
     $('#results').removeClass('hidden');
