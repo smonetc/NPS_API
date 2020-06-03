@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <title>NPS API </title>
+</head>
+<body>
+    <h1>Find A National Park</h1>
+    <div class="container">
+			<form>
+				<label>Enter the state for some national parks suggestions: </label>
+				<br>
+				<input type="text" id="state-name" class="form-control" placeholder="Enter a state e.g. NY"/>
+				<br>
+					<label>Number of parks you want to review: </label>
+				<br>
+          <input type="text" id="number-results" class="form-control" placeholder="10"/>
+          <input id="submit-button" class="btn btn-primary" type="submit" value="Submit"/>
+			</form>
+			<div id="js-error-message" class="error-message"></div>
+			<section id="results" class="hidden">
+				<h2>Search results: </h2>
+				<ul id="results-list">
+				</ul>
+				<!-- <div class="address">
+
+				</div> -->
+			</section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
